@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(232, 181, 190);
+}
+.top_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+}
+.heading{
+    font-family: 'Teko', sans-serif;
+    position: relative;
+    top: -18%;
+    font-size: 4vw;
+}
+.input{
+    text-align: center;
+    padding-top: 3vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+input{
+    width: 10vw;
+    height: 3vh;
+    border-radius: 1vh;
+    border-color: red;
+}
+.submit{
+    margin-top: 12vh;
+}
+.submit button{
+    height: 5vh;
+    width: 15vw;
+    border-radius: 3vh;
+    font-family: 'Roboto', sans-serif;
+    border-color: red;
+    font-size: 1vw;
+}
+.result{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 7%;
+}
+.visibility{
+    visibility: hidden;
+}
+.love_symbol img{
+    width: 23vw;
+}
